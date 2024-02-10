@@ -1,0 +1,24 @@
+<div class="page-wrapper">
+    <div class="content">
+        <div class="page-header">
+            <div class="page-title">
+                <h4>User List</h4>
+                <h6>Manage your User</h6>
+            </div>
+            <div class="page-btn">
+                <a [routerLink]="['/user-create']" class="btn btn-added"><img src="assets/img/icons/plus.svg" alt="img"
+                        class="me-2">Add User</a>
+            </div>
+        </div>
+
+        <!-- /product list -->
+        <div class="card">
+            <div class="card-body">
+                <app-table-top></app-table-top>
+                <app-filter></app-filter>
+                <app-table></app-table>
+            </div>
+        </div>
+        <!-- /product list -->
+    </div>
+</div>

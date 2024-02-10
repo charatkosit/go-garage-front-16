@@ -1,0 +1,25 @@
+<div class="page-wrapper">
+    <div class="content">
+        <div class="page-header">
+            <div class="page-title">
+                <h4>Store List</h4>
+                <h6>Manage your Store</h6>
+            </div>
+            <div class="page-btn">
+                <a [routerLink]="['/store-create']" class="btn btn-added"><img src="assets/img/icons/plus.svg" alt="img"
+                        class="me-2">Add Store</a>
+            </div>
+        </div>
+
+
+        <!-- /product list -->
+        <div class="card">
+            <div class="card-body">
+                <app-table-top></app-table-top>
+                <app-filter></app-filter>
+                <app-table></app-table>
+            </div>
+        </div>
+        <!-- /product list -->
+    </div>
+</div>

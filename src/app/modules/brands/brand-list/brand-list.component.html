@@ -1,0 +1,25 @@
+<div class="page-wrapper">
+    <div class="content">
+        <div class="page-header">
+            <div class="page-title">
+                <h4>Brand List</h4>
+                <h6>Manage your Brand</h6>
+            </div>
+            <div class="page-btn">
+                <a [routerLink]="['/brand-create']" class="btn btn-added"><img src="assets/img/icons/plus.svg"
+                        class="me-2" alt="img">Add Brand</a>
+            </div>
+        </div>
+
+
+        <!-- /product list -->
+        <div class="card">
+            <div class="card-body">
+                <app-table-top></app-table-top>
+                <app-filter></app-filter>
+                <app-table></app-table>
+            </div>
+        </div>
+        <!-- /product list -->
+    </div>
+</div>
